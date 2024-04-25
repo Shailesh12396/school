@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    font-family: 'Poppins', sans-serif;
+    height: 310px;
+    width: 20%;
+    font-size: 17px;
+    box-shadow: 1px 1px 1px 1px;
+    margin-top: 30px;
+    margin-left: 79%;
+    border-radius: 10px;
+}
+.overall{
+    font-family: 'Poppins', sans-serif;
+    height: 250px;
+    width: 20%;
+    font-size: 17px;
+    box-shadow: 1px 1px 1px 1px;
+    margin-top: 30px;
+    margin-left: 79%;
+    border-radius: 10px;
+}
