@@ -3,11 +3,12 @@ function Percentage() {
 
     return (
         <>
-        <div className="font-poppins h-310 w-1/5 text-base shadow-md  rounded-lg flex flex-col items-center border border-gray-300" style={{fontFamily:"Poppins, sans-serif",marginTop: "30px",marginLeft: "79%"}}>
+       
+        <div className="border w-full border-gray-300  rounded-lg shadow-md ">
             <br />
-            <span style={{ marginLeft: "-117px" }}>Your Percentage</span>
+            <span className="-ml-28">Your Percentage</span>
             <br />
-            <svg width="200" height="200">
+            <svg className="ml-10" width="200" height="200">
                 <circle cx="100" cy="100" r="60" fill="none" stroke="#e0e0e0" stroke-width="10" />
                 <circle cx="100" cy="100" r="60" fill="none" stroke="rgb(72, 172, 87)" stroke-width="10"
                     stroke-dasharray="416.68" stroke-dashoffset="94.25" />
@@ -20,7 +21,7 @@ function Percentage() {
 
         </div>
 
-        <div className=' w-1/5 text-base shadow-md rounded-lg border border-gray-300' style={{fontFamily:"Poppins, sans-serif",marginTop: "30px",marginLeft: "79%",height:"270px"}}>
+        <div className='w-full h-56 mt-8 text-base shadow-md rounded-lg border border-gray-300 ' >
             <br />
             <span>Your Overall Performance</span>
             <br/>

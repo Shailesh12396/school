@@ -22,15 +22,16 @@ function LeaderBoard() {
 
     return (
         
-        <div className="h-1150 w-1/5  shadow-md  " style={{ marginTop: "-1000px", marginLeft: "79%", fontFamily: "Poppins, sans-serif",fontSize: "25px" }}>
+       
+            <div>
             <br/>
             Leader Board
             <br />
             <br />
 
-            <div className="text-base mt-15 w-90 mx-auto h-670 border border-gray-300 rounded-lg "><span style={{ marginLeft: "-100px" }}>Top 3 student</span>
+            <div className="text-base mt-15 w-90    border-gray-300 rounded-lg "><span className='-ml-16'>Top 3 student</span>
 
-                <div className="h-500 mt-15 flex flex-col items-center justify-center" style={{height:"300px"}}>
+                <div className="h-60 mt-15 flex flex-col items-center justify-center" >
                     <img src={user2} alt="" className="mb-4" />
 
                     <div className="flex">
@@ -39,13 +40,13 @@ function LeaderBoard() {
                     </div>
                 </div>
                 <br />
-                <span style={{ marginLeft: "-100px" }}>Top 15 Student List</span>
+                <span className='-ml-16'>Top 15 Student List</span>
                 <br />
                 <br />
 
-                <ul className='mt-15 text-base flex flex-wrap  mx-auto '>
+                <ul className='mt-15 text-base flex flex-wrap   '>
                     {list.map((item, index) => (
-                        <li key={index} className="flex items-center mb-2  px-4 py-2 rounded-md shadow-md" style={{ width: "100%" }}>
+                        <li key={index} className="flex items-center mb-2 w-full px-4 py-2 rounded-md shadow-md">
                             <span className="mr-2">{item.number}</span>
                             <PiUserCircleFill className="mr-2" />
                             <span className="mr-2">{item.name}</span>

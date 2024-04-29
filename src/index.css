@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@variants {
+    .text-25 {
+      font-size: 25px;
+    }
+    .text-18 {
+      font-size: 18px;
+    }
+    .text-15 {
+      font-size: 15px;
+    }
+    .mt-100{
+        margin-top:-900px;
+    }
+    .mt-150{
+      margin-top:-1660px;
+  }
+    .h-700{
+        height:700px;
+    }
+    
+  }

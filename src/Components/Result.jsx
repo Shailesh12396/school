@@ -10,11 +10,12 @@ function Result() {
 
     ];
     return (
-        <div className="  h-550 w-55 mx-80 mt-n1770" style={{ fontFamily: "Poppins, sans-serif", marginTop: "-1770px", fontSize: "25px" }}>
-            <span style={{ marginLeft: "-600px" }}>Result</span>
 
-            <div className="h-450 w-90 rounded-lg mt-5 mx-auto shadow-xl border border-gray-300">
-                <div className="flex items-center " style={{ marginLeft: "240px" }}>
+        <div>
+            <span className='-ml-96'>Result</span>
+
+            <div className="  rounded-lg mt-5  shadow-xl border border-gray-300">
+                <div className="flex items-center ml-60" >
                     <img src={logo} alt="" className="w-8 h-6 " />
                     <span className="text-blue-500">Metaphile Public School</span>
                 </div>
@@ -56,9 +57,13 @@ function Result() {
 
             </div>
 
-            <div className='h-150 w-95 rounded-lg mt-12 mx-auto shadow-md border border-gray-300'>
-                <span style={{ color: "rgb(87, 174, 246)", marginTop: "15px" }}>ATTENDENCE</span>
-                <hr></hr>
+            <div className=' rounded-lg mt-12  shadow-md border border-gray-300'>
+            
+
+                <span className="text-blue-500">ATTENDENCE</span>
+                <hr className="my-3" />
+
+              
                 <div className='flex justify-around text-base'>
                     <div className='term1'>
                         Term 1
@@ -82,53 +87,15 @@ function Result() {
                 <br/>
             </div>
 
-            <div className=' w-95 rounded-lg mt-12 mx-auto shadow-md border border-gray-300' style={{height:"1250px"}}>
+            <div className=' rounded-lg mt-12 mx-auto shadow-md border border-gray-300' style={{height:"1250px"}}>
+            
 
-                <span style={{ color: "rgb(87, 174, 246)" }}>ACADEMIC PERFORMANCE</span>
-                <hr></hr>
-                <br />
-                <span style={{ marginLeft: "-620px", marginTop: "25px" }}>Term 1</span>
+                <span className="text-blue-500">ACADEMIC PERFORMANCE</span>
+                <hr className="my-3" />
 
+           
+                <span className="mt-6 -ml-96">Term 1</span>
 
-                <div className='marks'>
-                    <div class="grid-container">
-
-                        <div className="item merge-columns">Subjects</div>
-                        <div className="item1" >Total</div>
-                        <div className="item2">Out of</div>
-
-                        <div className="item merge-columns">English</div>
-                        <div className="item1">100</div>
-                        <div className="item2">74.6</div>
-                        <div className="item merge-columns">Hindi</div>
-                        <div className="item1">100</div>
-                        <div className="item2">87.5</div>
-                        <div className="item merge-columns">Science</div>
-                        <div className="item1">100</div>
-                        <div className="item2">78.9</div>
-                        <div className="item merge-columns">Maths</div>
-                        <div className="item1">100</div>
-                        <div className="item2">83.2</div>
-                        <div className="item merge-columns">Social Study</div>
-                        <div className="item1">100</div>
-                        <div className="item2">75.8</div>
-                        <div className="item merge-columns">Drawing</div>
-                        <div className="item1">100</div>
-                        <div className="item2">82</div>
-                        <div className="item merge-columns">Computer</div>
-                        <div className="item1">100</div>
-                        <div className="item2">90</div>
-
-                        <div className="item merge-columns"></div>
-                        <div className="items">GPA</div>
-                        <div className="items">8.95</div>
-
-                    </div>
-
-                </div>
-
-                <br />
-                <span style={{ marginLeft: "-620px", marginTop: "25px" }}>Term 2</span>
 
                 <div className='marks'>
                     <div class="grid-container">
@@ -166,8 +133,48 @@ function Result() {
                     </div>
 
                 </div>
+
                 <br />
-                <span style={{ marginLeft: "-620px", marginTop: "25px" }}>Final</span>
+                <span className="mt-6 -ml-96">Term 2</span>
+
+                <div className='marks'>
+                    <div class="grid-container">
+
+                        <div className="item merge-columns">Subjects</div>
+                        <div className="item1" >Total</div>
+                        <div className="item2">Out of</div>
+
+                        <div className="item merge-columns">English</div>
+                        <div className="item1">100</div>
+                        <div className="item2">74.6</div>
+                        <div className="item merge-columns">Hindi</div>
+                        <div className="item1">100</div>
+                        <div className="item2">87.5</div>
+                        <div className="item merge-columns">Science</div>
+                        <div className="item1">100</div>
+                        <div className="item2">78.9</div>
+                        <div className="item merge-columns">Maths</div>
+                        <div className="item1">100</div>
+                        <div className="item2">83.2</div>
+                        <div className="item merge-columns">Social Study</div>
+                        <div className="item1">100</div>
+                        <div className="item2">75.8</div>
+                        <div className="item merge-columns">Drawing</div>
+                        <div className="item1">100</div>
+                        <div className="item2">82</div>
+                        <div className="item merge-columns">Computer</div>
+                        <div className="item1">100</div>
+                        <div className="item2">90</div>
+
+                        <div className="item merge-columns"></div>
+                        <div className="items">GPA</div>
+                        <div className="items">8.95</div>
+
+                    </div>
+
+                </div>
+                <br />
+                <span className="mt-6 -ml-96">Final</span>
 
                 <div className='marks'>
                     <div class="grid-container">
@@ -208,7 +215,7 @@ function Result() {
 
             </div>
 
-            <button className="relative font-poppins text-base flex items-center justify-center mx-auto rounded-lg" style={{ backgroundColor:"rgb(194,251,251)", fontSize: "15px",marginTop: "15px", borderRadius: "10px",width: "180px",height:"50px" }} >Download &nbsp; </button>
+            <button className=" flex items-center justify-center mx-auto rounded-lg text-15 mt-4 w-44 h-12" style={{ backgroundColor:"rgb(194,251,251)" }} >Download &nbsp; </button>
         </div>
     )
 

@@ -8,15 +8,29 @@ import Result from './Components/Result';
 
 function App() {
   return (
-    <div className="App">
-      <NavBar/>
-      <DashBoard/>
-      <LeaderBoard/>
-      <Percentage/>
-      <Result/>
+    <div className="App" style={{ fontFamily: "Poppins, sans-serif" }}>
+
+      <NavBar />
+
+
+      <div className='w-72 shadow-md rounded-lg border border-gray-300 -mt-14'>
+        <DashBoard />
+      </div>
+
+      <div className=" w-1/5  shadow-md  text-25 mt-100 ml-[1165px]" >
+        <LeaderBoard />
+      </div>
+
+      <div className="  w-1/5   shadow-md   ml-[1165px] mt-10" >
+        <Percentage />
+      </div>
+
+      <div className=' w-6/11 mx-80  text-25 mt-150'>
+        <Result />
+      </div>
 
     </div>
-   
+
   );
 }
 

@@ -33,16 +33,17 @@ function DashBoard() {
     ];
 
     return (
-        <div className="relative h-1000 w-1/5 shadow-md rounded-lg border border-gray-300" style={{ fontFamily: "'Poppins', sans-serif", top: "-100px" }}>
-            <div className="relative flex items-center justify-between  " style={{ fontSize: "18px" }}>
-                <div className="flex items-center h-170 w-85 mx-auto mt-12 ">
-                    <img src={logo} alt="" className="mr-2" />
+       
+            <div>
+            <div className="relative flex items-center justify-between  text-18" >
+                <div className="flex items-center mt-12 ">
+                    <img src={logo} alt=""/>
                     Metaphile Public 
                     School
                 </div>
             </div>
             <br />
-            <div className="h-690 rounded-lg text-base mx-auto mt-n10" style={{ fontSize: "15px",backgroundColor:"rgb(228, 255, 255)", width:"250px"}}><br/><span style={{ fontSize: "25px" }}>DashBoard</span><br /><br />
+            <div className=" rounded-lg text-base mx-auto mt-n10 w-64 text-15" style={{ backgroundColor:"rgb(228, 255, 255)"}}><br/><span className='text-25'>DashBoard</span><br /><br />
 
                 <ul className=' list-none ' >
                     {options.map((option, index) => (
@@ -53,7 +54,7 @@ function DashBoard() {
             </div>
             <br />
 
-            <button className='relative font-poppins text-base flex items-center justify-center mx-auto rounded-lg' style={{backgroundColor:"rgb(194,251,251)", fontSize: "15px", width: "180px", height: "45px" }}>Log out &nbsp; <MdLogout /></button>
+            <button className='relative  flex items-center justify-center mx-auto rounded-lg text-15 w-44 h-11' style={{backgroundColor:"rgb(194,251,251)"}}>Log out &nbsp; <MdLogout /></button>
             <br />
         </div>
     )

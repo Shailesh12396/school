@@ -10,7 +10,7 @@ function NavBar() {
     }
   };
   return (
-    <nav className="flex items-center shadow-md font-base text-lg  justify-between px-8 py-4 rounded-lg" style={{fontFamily:"Poppins, sans-serif" ,marginLeft: "320px",backgroundColor:"rgb(228, 255, 255)" }}>
+    <nav className="flex items-center shadow-md font-base text-lg  justify-between px-8 py-4 rounded-lg ml-80" style={{backgroundColor:"rgb(228, 255, 255)" }}>
 
       <div className="flex items-center"><img src={logo} alt=""></img>&nbsp;&nbsp;&nbsp;Metaphile Public School</div>
 
