@@ -3,7 +3,6 @@ import logo from '../Assets/logo.png'
 
 function NavBar() {
 
-
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {
@@ -11,9 +10,9 @@ function NavBar() {
     }
   };
   return (
-    <nav>
+    <nav className="flex items-center shadow-md font-base text-lg  justify-between px-8 py-4 rounded-lg" style={{fontFamily:"Poppins, sans-serif" ,marginLeft: "320px",backgroundColor:"rgb(228, 255, 255)" }}>
 
-      <div className="logo"><img src={logo} alt=""></img>&nbsp;&nbsp;&nbsp;Metaphile Public School</div>
+      <div className="flex items-center"><img src={logo} alt=""></img>&nbsp;&nbsp;&nbsp;Metaphile Public School</div>
 
       <ul className="bar">
 

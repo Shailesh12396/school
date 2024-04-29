@@ -1,4 +1,3 @@
-import './LeaderBoard.css'
 import user2 from '../Assets/user2.png'
 import { PiUserCircleFill } from "react-icons/pi";
 
@@ -22,27 +21,40 @@ function LeaderBoard() {
     ];
 
     return (
-        <div className='right_box'>
+        
+        <div className="h-1150 w-1/5  shadow-md  " style={{ marginTop: "-1000px", marginLeft: "79%", fontFamily: "Poppins, sans-serif",fontSize: "25px" }}>
+            <br/>
             Leader Board
-            <div className='top1'><span style={{ marginLeft: "-100px" }}>Top 3 student</span>
-                <div className='red'>
-                    <img src={user2} alt=""></img>
-                 
+            <br />
+            <br />
 
-                    <br/>
-                    <br/><br/>
-                    <img src={user2} alt=""></img>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <img src={user2} alt=""></img>
+            <div className="text-base mt-15 w-90 mx-auto h-670 border border-gray-300 rounded-lg "><span style={{ marginLeft: "-100px" }}>Top 3 student</span>
+                <div className="h-500 mt-15 flex flex-col items-center justify-center" style={{height:"300px"}}>
+                    <img src={user2} alt="" className="mb-4" />
+
+                    <div className="flex">
+                        <img src={user2} alt="" className="mr-2" />
+                        <img src={user2} alt="" />
+                    </div>
                 </div>
                 <br />
                 <span style={{ marginLeft: "-100px" }}>Top 15 Student List</span>
+                <br />
+                <br />
 
-                <ul className='list'>
-                    {list.map((list, index) => (
-                        <li key={index} style={{ boxShadow: "2px 2px 5px rgba(0, 0, 0, 0.3)", marginBottom: "10px", padding: "10px", borderRadius: "5px" }}>{list.number}&nbsp;<PiUserCircleFill />&nbsp;&nbsp; {list.name}&nbsp;&nbsp; &nbsp;&nbsp;{list.percentage}
+                <ul className='mt-15 text-base flex flex-wrap  mx-auto '>
+                    {list.map((item, index) => (
+                        <li key={index} className="flex items-center mb-2  px-4 py-2 rounded-md shadow-md" style={{ width: "100%" }}>
+                            <span className="mr-2">{item.number}</span>
+                            <PiUserCircleFill className="mr-2" />
+                            <span className="mr-2">{item.name}</span>
+                            <span>{item.percentage}</span>
                         </li>
                     ))}
                 </ul>
+                <br />
+                <br />
+
             </div>
         </div>
     )

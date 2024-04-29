@@ -1,12 +1,9 @@
-import './Percentage.css'
-
 
 function Percentage() {
 
-
     return (
         <>
-        <div className='card'>
+        <div className="font-poppins h-310 w-1/5 text-base shadow-md  rounded-lg flex flex-col items-center border border-gray-300" style={{fontFamily:"Poppins, sans-serif",marginTop: "30px",marginLeft: "79%"}}>
             <br />
             <span style={{ marginLeft: "-117px" }}>Your Percentage</span>
             <br />
@@ -18,9 +15,12 @@ function Percentage() {
             </svg>
             Congratulations <br/>
             You are on Top 10%
+            <br/>
+            <br/>
+
         </div>
 
-        <div className='overall'>
+        <div className=' w-1/5 text-base shadow-md rounded-lg border border-gray-300' style={{fontFamily:"Poppins, sans-serif",marginTop: "30px",marginLeft: "79%",height:"270px"}}>
             <br />
             <span>Your Overall Performance</span>
             <br/>

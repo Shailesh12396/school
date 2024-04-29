@@ -16,9 +16,7 @@ function App() {
       <Result/>
 
     </div>
-    // <>
-    // <h1 className='text-7xl text-center text-blue-400'>Hello G</h1>
-    // </>
+   
   );
 }
 
