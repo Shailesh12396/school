@@ -29,6 +29,7 @@ function LeaderBoard() {
             <br />
 
             <div className="text-base mt-15 w-90 mx-auto h-670 border border-gray-300 rounded-lg "><span style={{ marginLeft: "-100px" }}>Top 3 student</span>
+
                 <div className="h-500 mt-15 flex flex-col items-center justify-center" style={{height:"300px"}}>
                     <img src={user2} alt="" className="mb-4" />
 
