@@ -17,15 +17,15 @@ function App() {
         <DashBoard />
       </div>
 
-      <div className=" w-1/5  shadow-md  text-25 mt-100 ml-[1165px]" >
+      <div className=" w-1/5  shadow-md  text-25 mt-100 ml-[1210px]" >
         <LeaderBoard />
       </div>
 
-      <div className="  w-1/5   shadow-md   ml-[1165px] mt-10" >
+      <div className="  w-1/5   shadow-md   ml-[1210px] mt-10" >
         <Percentage />
       </div>
 
-      <div className=' w-6/11 mx-80  text-25 mt-150'>
+      <div className=' w-7/12 mx-80  text-25 mt-150'>
         <Result />
       </div>
 
