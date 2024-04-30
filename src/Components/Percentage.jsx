@@ -4,7 +4,7 @@ function Percentage() {
     return (
         <>
        
-        <div className="border flex flex-col justify-center rounded-lg shadow-md text-18 mt-12">
+        <div className="border flex flex-col justify-center rounded-lg shadow-md text-18 mt-12 ">
             <br />
             <span >Your Percentage</span>
           

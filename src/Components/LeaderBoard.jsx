@@ -24,16 +24,16 @@ function LeaderBoard() {
     return (
         
        
-            <div>
+            <div className=''>
             <br/>
             Leader Board
-            <br />
-            <br />
+        
+       
 
-            <div className="text-base mt-15    border-gray-300 rounded-lg "><span className='-ml-16'>Top 3 student</span>
+            <div className="text-base h-screen overflow-auto hide-scrollbar mt-7 shadow-md border border-gray-300 rounded-lg "><span className='-ml-16'>Top 3 student</span>
 
                 <div className=" mt-15 flex flex-col items-center justify-center" >
-                    <img src={user2} alt="" className="mb-4" />
+                    <img src={user2} alt=""  />
 
                     <div className="flex">
                         <img src={user2} alt="" className="mr-2" />
@@ -56,7 +56,7 @@ function LeaderBoard() {
                     ))}
                 </ul>
                 <br />
-                <br />
+               
 
             </div>
             <Percentage/>

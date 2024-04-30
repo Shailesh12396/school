@@ -34,7 +34,7 @@ function DashBoard() {
 
     return (
        
-            <div >
+            <div  className=' h-screen overflow-auto hide-scrollbar'>
             <div  >
                 <div className="flex items-center mt-10 ">
                     <img src={logo} alt=""/>
@@ -43,7 +43,7 @@ function DashBoard() {
                 </div>
             </div>
             <br />
-            <div className=" rounded-lg  -mt-5  text-15" style={{ backgroundColor:"rgb(228, 255, 255)"}}><br/><span className='text-25'>DashBoard</span><br /><br />
+            <div className="w-11/12 rounded-lg mx-auto  -mt-5  text-15 " style={{ backgroundColor:"rgb(228, 255, 255)"}}><br/><span className='text-25'>DashBoard</span><br /><br />
 
                 <ul  >
                     {options.map((option, index) => (
@@ -54,7 +54,7 @@ function DashBoard() {
             </div>
             <br />
 
-            <button className='relative  flex items-center justify-center mx-auto rounded-lg text-15 w-44 h-11' style={{backgroundColor:"rgb(194,251,251)"}}>Log out &nbsp; <MdLogout /></button>
+            <button className='relative  flex items-center justify-center mx-auto rounded-lg text-15 p-3' style={{backgroundColor:"rgb(194,251,251)"}}>Log out &nbsp; <MdLogout /></button>
             <br />
         </div>
     )

@@ -9,10 +9,9 @@
     font-size: 16px;
     height: 300px;
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    /* 4 columns */
+    grid-template-columns: auto auto auto auto; 
     box-shadow: 1px 1px 1px 1px;
-    border-radius: 10px;
+    border-radius: 8px;
 
 
 }
@@ -20,6 +19,7 @@
 .item1 {
     padding: 2px;
     background-color: #9fecff;
+    
 }
 
 .items {
@@ -30,19 +30,11 @@
 .item2 {
     padding: 2px;
     background-color: rgb(72, 172, 87);
+  
 }
-
 
 
 .merge-columns {
     grid-column: span 2;
-}
-
-.marks {
-    margin-top: 15px;
-    height: 290px;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
 
 }

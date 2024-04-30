@@ -57,7 +57,7 @@ function Result() {
 
             </div>
 
-            <div className=' rounded-lg mt-12  shadow-md border border-gray-300'>
+            <div className=' rounded-lg mt-12  shadow-md border border-gray-300 '>
             
 
                 <span className="text-blue-500">ATTENDENCE</span>
@@ -65,7 +65,7 @@ function Result() {
 
               
                 <div className='flex justify-around text-base'>
-                    <div className='term1'>
+                    <div className=' p-4'>
                         Term 1
                         <br/>
                         <br/>
@@ -74,7 +74,7 @@ function Result() {
                             Total Attendence of the student
                         </div>
                     </div>
-                    <div className='term2'>
+                    <div className=' p-4'>
                         Term 2
                         <br/>
                         <br/>
@@ -87,7 +87,7 @@ function Result() {
                 <br/>
             </div>
 
-            <div className=' rounded-lg mt-12  shadow-md border border-gray-300' >
+            <div className=' rounded-lg mt-12  shadow-md border border-gray-300 ' >
             
 
                 <span className="text-blue-500">ACADEMIC PERFORMANCE</span>
@@ -97,12 +97,12 @@ function Result() {
                 <span >Term 1</span>
 
 
-                <div className='marks'>
+                <div className='w-11/12 mx-auto '>
                     <div class="grid-container">
 
                         <div className="item merge-columns">Subjects</div>
                         <div className="item1" >Total</div>
-                        <div className="item2">Out of</div>
+                        <div className="rounded-tr-lg p-1" style={{backgroundColor:"rgb(72, 172, 87)"}}>Out of</div>
 
                         <div className="item merge-columns">English</div>
                         <div className="item1">100</div>
@@ -137,12 +137,12 @@ function Result() {
                 <br />
                 <span>Term 2</span>
 
-                <div className='marks'>
+                <div className='w-11/12 mx-auto'>
                     <div class="grid-container">
 
                         <div className="item merge-columns">Subjects</div>
                         <div className="item1" >Total</div>
-                        <div className="item2">Out of</div>
+                        <div className="rounded-tr-lg p-1" style={{backgroundColor:"rgb(72, 172, 87)"}}>Out of</div>
 
                         <div className="item merge-columns">English</div>
                         <div className="item1">100</div>
@@ -176,12 +176,12 @@ function Result() {
                 <br />
                 <span >Final</span>
 
-                <div className='marks'>
+                <div className='w-11/12 mx-auto'>
                     <div class="grid-container">
 
                         <div className="item merge-columns">Subjects</div>
                         <div className="item1" >Total</div>
-                        <div className="item2">Out of</div>
+                        <div className="rounded-tr-lg p-1" style={{backgroundColor:"rgb(72, 172, 87)"}}>Out of</div>
 
                         <div className="item merge-columns">English</div>
                         <div className="item1">100</div>
