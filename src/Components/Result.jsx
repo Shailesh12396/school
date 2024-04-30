@@ -11,27 +11,27 @@ function Result() {
     ];
     return (
 
-        <div>
-            <span className='-ml-96'>Result</span>
+        <div className='flex flex-col justify-center flex-grow bg-red-300 '>
+            <span >Result</span>
 
             <div className="  rounded-lg mt-5  shadow-xl border border-gray-300">
-                <div className="flex items-center ml-60" >
+                <div className="flex items-center justify-center" >
                     <img src={logo} alt="" className="w-8 h-6 " />
                     <span className="text-blue-500">Metaphile Public School</span>
                 </div>
                 <span className="text-sm">'D' Block, Ganga Nagar, Meerut-250001</span>
                 <hr className="my-3" />
                 <span className="text-blue-500">PERFORMANCE PROFILE</span>
-                <hr className="my-3" />
+                <hr className="my-3 " />
 
-                <div className="flex profile">
-                    <div className="ml-32">
-                        <img src={user} alt="" className="mt-8 mb-4 ml-18" />
+                <div className="flex justify-center items-center">
+                    <div className=" bg-slate-300 flex flex-col justify-center items-center">
+                        <img src={user} alt=""  />
                         <span className="text-lg block mb-2">Mehika Tegrwal</span>
                         <span className="text-base block mb-2">Class 2nd A</span>
                     </div>
 
-                    <div className="ml-10">
+                    <div>
                         <ul className="student">
                             {student.map((student, index) => (
                                 <li key={index} className="text-lg mb-4 grid grid-cols-2 gap-x-4 mt-6">
@@ -69,7 +69,7 @@ function Result() {
                         Term 1
                         <br/>
                         <br/>
-                        <div className='h-16 mt-15 w-auto rounded-lg bg-green-200 text-green-600'>
+                        <div className=' rounded-lg bg-green-200 text-green-600'>
                             235/240 Days<br />
                             Total Attendence of the student
                         </div>
@@ -78,7 +78,7 @@ function Result() {
                         Term 2
                         <br/>
                         <br/>
-                        <div className='h-16 mt-15 w-137 rounded-lg bg-green-200 text-green-600'>
+                        <div className='  rounded-lg bg-green-200 text-green-600'>
                             235/240 Days<br />
                             Total Attendence of the student
                         </div>
@@ -87,14 +87,14 @@ function Result() {
                 <br/>
             </div>
 
-            <div className=' rounded-lg mt-12 mx-auto shadow-md border border-gray-300' style={{height:"1250px"}}>
+            <div className=' rounded-lg mt-12  shadow-md border border-gray-300' >
             
 
                 <span className="text-blue-500">ACADEMIC PERFORMANCE</span>
                 <hr className="my-3" />
 
            
-                <span className="mt-6 -ml-96">Term 1</span>
+                <span >Term 1</span>
 
 
                 <div className='marks'>
@@ -135,7 +135,7 @@ function Result() {
                 </div>
 
                 <br />
-                <span className="mt-6 -ml-96">Term 2</span>
+                <span>Term 2</span>
 
                 <div className='marks'>
                     <div class="grid-container">
@@ -174,7 +174,7 @@ function Result() {
 
                 </div>
                 <br />
-                <span className="mt-6 -ml-96">Final</span>
+                <span >Final</span>
 
                 <div className='marks'>
                     <div class="grid-container">
@@ -212,10 +212,10 @@ function Result() {
                     </div>
 
                 </div>
+                <button className=" flex items-center justify-center mx-auto rounded-lg text-15 mt-4 w-44 h-12" style={{ backgroundColor:"rgb(194,251,251)" }} >Download &nbsp; </button>
 
             </div>
 
-            <button className=" flex items-center justify-center mx-auto rounded-lg text-15 mt-4 w-44 h-12" style={{ backgroundColor:"rgb(194,251,251)" }} >Download &nbsp; </button>
         </div>
     )
 

@@ -34,18 +34,18 @@ function DashBoard() {
 
     return (
        
-            <div>
-            <div className="relative flex items-center justify-between  text-18" >
-                <div className="flex items-center mt-12 ">
+            <div className='bg-slate-400'>
+            <div  >
+                <div className="flex items-center mt-10 ">
                     <img src={logo} alt=""/>
                     Metaphile Public 
                     School
                 </div>
             </div>
             <br />
-            <div className=" rounded-lg text-base mx-auto mt-n10 w-64 text-15" style={{ backgroundColor:"rgb(228, 255, 255)"}}><br/><span className='text-25'>DashBoard</span><br /><br />
+            <div className=" rounded-lg  -mt-5  text-15" style={{ backgroundColor:"rgb(228, 255, 255)"}}><br/><span className='text-25'>DashBoard</span><br /><br />
 
-                <ul className=' list-none ' >
+                <ul  >
                     {options.map((option, index) => (
                         <li className="flex items-center p-2 "  key={index}>{option.icon}&nbsp;&nbsp; {option.name}
                         </li>

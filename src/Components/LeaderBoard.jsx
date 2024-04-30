@@ -1,5 +1,6 @@
 import user2 from '../Assets/user2.png'
 import { PiUserCircleFill } from "react-icons/pi";
+import Percentage from './Percentage';
 
 function LeaderBoard() {
     const list = [
@@ -29,9 +30,9 @@ function LeaderBoard() {
             <br />
             <br />
 
-            <div className="text-base mt-15 w-90    border-gray-300 rounded-lg "><span className='-ml-16'>Top 3 student</span>
+            <div className="text-base mt-15   bg-slate-300 border-gray-300 rounded-lg "><span className='-ml-16'>Top 3 student</span>
 
-                <div className="h-60 mt-15 flex flex-col items-center justify-center" >
+                <div className=" mt-15 flex flex-col items-center justify-center" >
                     <img src={user2} alt="" className="mb-4" />
 
                     <div className="flex">
@@ -58,7 +59,10 @@ function LeaderBoard() {
                 <br />
 
             </div>
+            <Percentage/>
         </div>
+        
+
     )
 
 }
