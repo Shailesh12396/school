@@ -11,7 +11,7 @@ function Result() {
     ];
     return (
 
-        <div className='flex flex-col justify-center flex-grow bg-red-300 '>
+        <div className='flex flex-col justify-center flex-grow  '>
             <span >Result</span>
 
             <div className="  rounded-lg mt-5  shadow-xl border border-gray-300">
@@ -25,7 +25,7 @@ function Result() {
                 <hr className="my-3 " />
 
                 <div className="flex justify-center items-center">
-                    <div className=" bg-slate-300 flex flex-col justify-center items-center">
+                    <div className="  flex flex-col justify-center items-center">
                         <img src={user} alt=""  />
                         <span className="text-lg block mb-2">Mehika Tegrwal</span>
                         <span className="text-base block mb-2">Class 2nd A</span>

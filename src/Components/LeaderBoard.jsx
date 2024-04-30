@@ -30,7 +30,7 @@ function LeaderBoard() {
             <br />
             <br />
 
-            <div className="text-base mt-15   bg-slate-300 border-gray-300 rounded-lg "><span className='-ml-16'>Top 3 student</span>
+            <div className="text-base mt-15    border-gray-300 rounded-lg "><span className='-ml-16'>Top 3 student</span>
 
                 <div className=" mt-15 flex flex-col items-center justify-center" >
                     <img src={user2} alt="" className="mb-4" />

@@ -34,7 +34,7 @@ function DashBoard() {
 
     return (
        
-            <div className='bg-slate-400'>
+            <div >
             <div  >
                 <div className="flex items-center mt-10 ">
                     <img src={logo} alt=""/>

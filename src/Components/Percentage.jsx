@@ -21,7 +21,7 @@ function Percentage() {
 
         </div>
 
-        <div className=' bg-blue-400 mt-8 text-18 flex flex-col justify-center shadow-md rounded-lg border border-gray-300 ' >
+        <div className='  mt-8 text-18 flex flex-col justify-center shadow-md rounded-lg border border-gray-300 ' >
             <br />
             <span>Your Overall Performance</span>
             <span>of the Year:</span>
